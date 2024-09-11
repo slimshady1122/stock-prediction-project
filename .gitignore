@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# CSV files (if you don't want to include them)
+*.csv
+
+# Other unnecessary files
+*.log
