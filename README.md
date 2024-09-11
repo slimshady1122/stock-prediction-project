@@ -1,23 +1,11 @@
 Stock Price Prediction Using Neural Networks
 This project predicts future stock prices using technical indicators and a neural network model built with TensorFlow/Keras. The dataset used in this project includes stock data for Apple (AAPL), and the model forecasts future prices based on past price movements and technical indicators such as Simple Moving Average (SMA), Exponential Moving Average (EMA), and Relative Strength Index (RSI).
 
-Project Structure
-plaintext
-Copy code
-.
-├── data_collection.py       # Script to collect historical stock data
-├── data_preprocessing.py     # Preprocessing data and adding technical indicators
-├── neural_network_model.py   # Neural network model for price prediction
-├── future_predictions.py     # Making future stock price predictions
-├── apple_stock_data.csv      # Original Apple stock data
-├── apple_stock_data_with_indicators.csv  # Preprocessed data with technical indicators
-└── README.md                # Project documentation
-Setup
+
 Requirements
 To run this project, ensure you have the following Python packages installed:
 
-bash
-Copy code
+
 pip install pandas numpy scikit-learn tensorflow matplotlib
 Files and Scripts
 data_collection.py: Collects and stores historical stock price data for Apple.
